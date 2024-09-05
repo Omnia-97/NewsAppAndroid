@@ -1,4 +1,4 @@
-package com.example.newsappandroid.domain.usecases
+package com.example.newsappandroid.domain.usecases.appEntry
 
 import com.example.newsappandroid.domain.manager.LocalUserManger
 import javax.inject.Inject
