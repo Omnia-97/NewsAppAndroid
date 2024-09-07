@@ -18,16 +18,13 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.newsappandroid.presentation.Dimens.MedianPadding2
 import com.example.newsappandroid.presentation.common.NewsButton
 import com.example.newsappandroid.presentation.common.NewsTextButton
 import com.example.newsappandroid.presentation.onboarding.components.OnBoardingPage
 import com.example.newsappandroid.presentation.onboarding.components.PageIndicator
-
 import kotlinx.coroutines.launch
-
 
 
 @OptIn(ExperimentalFoundationApi::class)
@@ -64,7 +61,7 @@ fun OnBoardingScreen(
         ) {
             PageIndicator(
                 modifier = Modifier.width(52.dp),
-                pageSize = pages.size,
+                pagesSize = pages.size,
                 selectedPage = pagerState.currentPage
             )
 
@@ -75,11 +72,12 @@ fun OnBoardingScreen(
                         text = buttonState.value[0],
                         onClick = {
                             scope.launch {
-                                pagerState.animateScrollToPage(
-                                    page = pagerState.currentPage - 1
-                                )
+                                if (pagerState.currentPage > 0) {
+                                    pagerState.animateScrollToPage(
+                                        page = pagerState.currentPage - 1
+                                    )
+                                }
                             }
-
                         }
                     )
                 }
@@ -98,6 +96,7 @@ fun OnBoardingScreen(
                     }
                 )
             }
+
         }
         Spacer(modifier = Modifier.weight(0.5f))
 

@@ -26,22 +26,26 @@ fun NewsButton(
         ),
         shape = RoundedCornerShape(size = 6.dp)
     ) {
-        Text(text = text, style = MaterialTheme.typography.labelMedium.copy(
-            fontWeight = FontWeight.SemiBold
-        ))
+        Text(
+            text = text, style = MaterialTheme.typography.labelMedium.copy(
+                fontWeight = FontWeight.SemiBold
+            )
+        )
 
     }
 }
+
 @Composable
 fun NewsTextButton(
     text: String,
     onClick: () -> Unit
-){
+) {
     TextButton(onClick = onClick) {
-        Text(text = text,
+        Text(
+            text = text,
             style = MaterialTheme.typography.labelMedium.copy(
-            fontWeight = FontWeight.SemiBold
-        ),
+                fontWeight = FontWeight.SemiBold
+            ),
             color = WhiteGray
         )
 
