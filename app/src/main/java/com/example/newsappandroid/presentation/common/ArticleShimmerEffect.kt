@@ -22,9 +22,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.newsappandroid.presentation.Dimens
 import com.example.newsappandroid.presentation.Dimens.MediumPadding1
+import com.example.newsappandroid.ui.theme.NewsAppAndroidTheme
 import com.loc.newsapp.R
 
 
@@ -78,4 +80,12 @@ fun ArticleCardShimmerEffect(modifier: Modifier = Modifier) {
             }
         }
     }
+}
+@Preview
+@Composable
+fun ArticleCardShimmerEffectPreview() {
+NewsAppAndroidTheme {
+    ArticleCardShimmerEffect()
+}
+
 }
