@@ -16,6 +16,7 @@ import javax.inject.Inject
 class MainViewModel @Inject constructor(
     private val readAppEntry: ReadAppEntry
 ) : ViewModel() {
+
     private val _splashCondition = mutableStateOf(true)
     val splashCondition: State<Boolean> = _splashCondition
 
@@ -29,11 +30,8 @@ class MainViewModel @Inject constructor(
             } else {
                 _startDestination.value = Route.AppStartNavigation.route
             }
-            delay(3000)
+            delay(300)
             _splashCondition.value = false
         }.launchIn(viewModelScope)
-
     }
-
-
 }

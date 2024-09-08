@@ -72,11 +72,9 @@ fun OnBoardingScreen(
                         text = buttonState.value[0],
                         onClick = {
                             scope.launch {
-                                if (pagerState.currentPage > 0) {
-                                    pagerState.animateScrollToPage(
-                                        page = pagerState.currentPage - 1
-                                    )
-                                }
+                                pagerState.animateScrollToPage(
+                                    page = pagerState.currentPage - 1
+                                )
                             }
                         }
                     )

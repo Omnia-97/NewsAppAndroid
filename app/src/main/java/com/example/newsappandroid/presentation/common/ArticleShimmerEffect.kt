@@ -81,11 +81,12 @@ fun ArticleCardShimmerEffect(modifier: Modifier = Modifier) {
         }
     }
 }
+
 @Preview
 @Composable
 fun ArticleCardShimmerEffectPreview() {
-NewsAppAndroidTheme {
-    ArticleCardShimmerEffect()
-}
+    NewsAppAndroidTheme {
+        ArticleCardShimmerEffect()
+    }
 
 }
