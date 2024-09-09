@@ -21,6 +21,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.newsappandroid.domain.model.Article
@@ -104,7 +105,9 @@ fun DetailsScreen(
                 Spacer(modifier = Modifier.height(MediumPadding1))
                 Text(
                     text = article.title,
-                    style = MaterialTheme.typography.displaySmall,
+                    style = MaterialTheme.typography.bodyLarge.copy(
+                        fontSize = 24.sp
+                    ),
                     color = colorResource(
                         id = R.color.text_title
                     )
