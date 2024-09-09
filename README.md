@@ -1,6 +1,6 @@
 # News App 📰
 
-Welcome to the **News App**, your go-to app for the latest news from around the world! Stay informed with our seamless and modern interface, built using **Android Jetpack Compose** and following **MVVM**, **MVI**, and **Clean Architecture** principles. You can view, search, save, share, and even bookmark news articles to stay up-to-date.
+A modern **news app** built using **Android Jetpack Compose** following the **MVVM and MVI architectures** with **Clean Architecture** principles. The app allows users to view news articles, search for specific news, bookmark favorite articles, share news, and open full articles on external websites.
 
 ## Table of Contents 📜
 - [Features](#features) ✨
