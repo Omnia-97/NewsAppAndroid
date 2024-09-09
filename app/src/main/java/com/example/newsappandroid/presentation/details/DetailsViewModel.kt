@@ -49,7 +49,7 @@ class DetailsViewModel @Inject constructor(
 
     private suspend fun upsertArticle(article: Article) {
         upsertArticleUseCase(article = article)
-        sideEffect = UIComponent.Toast("Article Inserted")
+        sideEffect = UIComponent.Toast("Article bookmarked")
     }
 
 }

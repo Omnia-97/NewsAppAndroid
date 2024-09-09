@@ -68,9 +68,6 @@ fun DetailsScreen(
                     }
                 }
             },
-            onBookMarkClick = {
-                event(DetailsEvent.UpsertDeleteArticle(article))
-            },
             onShareClick = {
                 Intent(Intent.ACTION_SEND).also {
                     it.putExtra(Intent.EXTRA_TEXT, article.url)
@@ -79,6 +76,9 @@ fun DetailsScreen(
                         context.startActivity(it)
                     }
                 }
+            },
+            onBookMarkClick = {
+                event(DetailsEvent.UpsertDeleteArticle(article))
             },
             onBackClick = navigateUp
         )
