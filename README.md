@@ -16,11 +16,12 @@ A modern **news app** built using **Android Jetpack Compose** following the **MV
 <a id="features"></a>
 ## Features ✨
 
-- 🔍 **Search News**: Quickly search for news articles by keywords.
+- 🔍 **Search News**: search for news articles by keywords.
 - 📰 **View Latest News**: Stay updated with a list of the latest news articles.
 - 🔖 **Bookmark News**: Save articles to read later with the bookmark feature.
 - 📤 **Share News**: Easily share articles with friends via other apps.
 - 🌐 **Read Full Article**: Open the complete article in a web browser with just one tap.
+- 🌗 **Dark Mode and Light Mode Support**: The app automatically adjusts to match the user's system theme, providing a seamless experience in both light and dark modes.
 
 ---
 
@@ -38,31 +39,17 @@ A modern **news app** built using **Android Jetpack Compose** following the **MV
 <a id="technologies-used"></a>
 ## Technologies Used 🛠️
 
-- 📱 **Kotlin**: For Android app development.
-- 🎨 **Jetpack Compose**: For building the UI with a declarative approach.
-- 🏛️ **MVVM (Model-View-ViewModel)**: Ensures a separation of concerns and clean UI logic.
-- 🔄 **MVI (Model-View-Intent)**: Provides a unidirectional data flow for managing state immutably.
-- 🏗️ **Clean Architecture**: Modular and testable code organization.
-- 📡 **Retrofit**: For making API calls to fetch news data.
-- 🗂️ **Room Database**: Local storage for saving bookmarked news articles.
-- 📄 **Paging 3**: For efficiently handling large datasets and paginated news lists.
-- ⚙️ **Dagger-Hilt**: For dependency injection.
-- ⚡ **Coroutines & Flow**: To handle asynchronous tasks and data streams.
-- 💾 **DataStore Preferences**: For managing user settings and preferences.
-
----
-
-<a id="architecture"></a>
-## Architecture 🏗️
-
-This project follows a combination of **MVVM** and **MVI** architectures along with **Clean Architecture** principles to ensure modularity, scalability, and maintainability.
-
-- **MVVM** (Model-View-ViewModel) separates the UI and business logic, ensuring ease of maintenance.
-- **MVI** (Model-View-Intent) helps manage a unidirectional flow of data and state using immutable state objects.
-- **Clean Architecture** divides the codebase into:
-  - **Domain Layer**: Business logic and use cases.
-  - **Data Layer**: Handling network and local data sources, including Retrofit, Room, and DataStore.
-  - **Presentation Layer**: UI components, ViewModels, and state management using Jetpack Compose.
+- **Kotlin**: For Android app development.
+- **Jetpack Compose**: For building the UI with a declarative approach.
+- **MVVM (Model-View-ViewModel)**: Ensures a separation of concerns and clean UI logic.
+- **MVI (Model-View-Intent)**: Provides a unidirectional data flow for managing state immutably.
+- **Clean Architecture**: Modular and testable code organization.
+- **Retrofit**: For making API calls to fetch news data.
+- **Room Database**: Local storage for saving bookmarked news articles.
+- **Paging 3**: For efficiently handling large datasets and paginated news lists.
+- **Dagger-Hilt**: For dependency injection.
+- **Coroutines & Flow**: To handle asynchronous tasks and data streams.
+- **DataStore Preferences**: For managing user settings and preferences.
 
 ---
 
@@ -77,10 +64,30 @@ Ensure you have the following tools installed:
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [Git](https://git-scm.com)
 
-### Steps to Install 🌀
+<a id="contributing"></a>
+## Contributing 🤝
 
-1. Clone the repository:
+Contributions are welcome and greatly appreciated! Follow the steps below to contribute:
+
+1. **Fork the Repository** 🍴
 
    ```bash
-   git clone https://github.com/username/news-app.git
-   cd news-app
+   git fork https://github.com/Omnia-97/NewsAppAndroid.git
+   
+2. **Create a New Branch** 🌿
+
+
+  ```bash
+    git checkout -b feature/NewFeature
+
+3. **Commit Your Changes** ✨
+
+
+  ```bash
+  git commit -m "Add NewFeature"
+
+
+
+
+
+
