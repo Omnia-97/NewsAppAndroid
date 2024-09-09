@@ -22,7 +22,7 @@ import com.loc.newsapp.R
 fun BookmarkScreen(
     state: BookMarkState,
     navigateToDetails: (Article) -> Unit
-){
+) {
     Column(
         modifier = Modifier
             .fillMaxWidth()

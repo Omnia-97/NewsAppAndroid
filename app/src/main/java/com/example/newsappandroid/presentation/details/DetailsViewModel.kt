@@ -29,14 +29,15 @@ class DetailsViewModel @Inject constructor(
             is DetailsEvent.UpsertDeleteArticle -> {
                 viewModelScope.launch {
                     val article = getSavedArticleUseCase(url = event.article.url)
-                    if (article == null){
+                    if (article == null) {
                         upsertArticle(article = event.article)
-                    }else{
+                    } else {
                         deleteArticle(article = event.article)
                     }
                 }
             }
-            is DetailsEvent.RemoveSideEffect ->{
+
+            is DetailsEvent.RemoveSideEffect -> {
                 sideEffect = null
             }
         }

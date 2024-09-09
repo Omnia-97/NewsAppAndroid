@@ -14,5 +14,5 @@ abstract class MangerModule {
 
     @Binds
     @Singleton
-    abstract fun bindLocalUserManger(localUserMangerImpl: LocalUserMangerImpl) : LocalUserManger
+    abstract fun bindLocalUserManger(localUserMangerImpl: LocalUserMangerImpl): LocalUserManger
 }

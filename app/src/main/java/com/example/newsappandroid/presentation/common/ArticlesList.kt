@@ -22,7 +22,7 @@ fun ArticlesList(
     articles: List<Article>,
     onClick: (Article) -> Unit
 ) {
-    if (articles.isEmpty()){
+    if (articles.isEmpty()) {
         EmptyScreen()
     }
     LazyColumn(

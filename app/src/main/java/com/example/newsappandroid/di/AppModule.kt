@@ -1,16 +1,11 @@
 package com.example.newsappandroid.di
 
 import android.app.Application
-import androidx.room.Room
 import androidx.room.Room.databaseBuilder
 import com.example.newsappandroid.data.local.NewsDao
 import com.example.newsappandroid.data.local.NewsDataBase
 import com.example.newsappandroid.data.local.NewsTypeConverter
-import com.example.newsappandroid.data.manager.LocalUserMangerImpl
 import com.example.newsappandroid.data.remote.NewsApi
-import com.example.newsappandroid.domain.manager.LocalUserManger
-import com.example.newsappandroid.domain.usecases.appEntry.ReadAppEntry
-import com.example.newsappandroid.domain.usecases.appEntry.SaveAppEntry
 import com.example.newsappandroid.utils.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
