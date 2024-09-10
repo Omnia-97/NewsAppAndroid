@@ -2,6 +2,8 @@
 
 A modern **news app** built using **Android Jetpack Compose** following the **MVVM and MVI architectures** with **Clean Architecture** principles. The app allows users to view news articles, search for specific news, bookmark favorite articles, share news, and open full articles on external websites.
 
+---
+
 ## Table of Contents 📜
 - [Features](#features) ✨
 - [Screenshots](#screenshots) 📸
