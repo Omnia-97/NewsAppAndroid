@@ -82,16 +82,16 @@ Contributions are welcome and greatly appreciated! Follow the steps below to con
     git checkout -b feature/NewFeature
         
 3. **Commit Your Changes** ✨
-    ```bash
-    git commit -m "Add NewFeature"
+     ```bash
+     git commit -m "Add NewFeature"
     
 4. **Push to the Branch** 🚀
-   ```bash
-  git push origin feature/AmazingFeature
+     ```bash
+     git push origin feature/AmazingFeature
   
 5. **Submit a Pull Request** 📩  
-    ```bash
-    https://github.com/Omnia-97/NewsAppAndroid.git 
+     ```bash
+     https://github.com/Omnia-97/NewsAppAndroid.git 
 
 
 
