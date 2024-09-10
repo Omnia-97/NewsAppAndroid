@@ -75,32 +75,16 @@ Contributions are welcome and greatly appreciated! Follow the steps below to con
 
 1. **Fork the Repository** 🍴
    ```bash
-   git fork https://github.com/Omnia-97/NewsAppAndroid.git
-   
+   git fork https://github.com/Omnia-97/NewsAppAndroid.git   
 2. **Create a New Branch** 🌿
      ```bash
-    git checkout -b feature/NewFeature
-        
+    git checkout -b feature/NewFeature        
 3. **Commit Your Changes** ✨
      ```bash
-     git commit -m "Add NewFeature"
-    
+     git commit -m "Add NewFeature"    
 4. **Push to the Branch** 🚀
      ```bash
-     git push origin feature/AmazingFeature
-  
+     git push origin feature/AmazingFeature 
 5. **Submit a Pull Request** 📩  
      ```bash
      https://github.com/Omnia-97/NewsAppAndroid.git 
-
-
-
-
-
-  
-
-
-
-
-
-
