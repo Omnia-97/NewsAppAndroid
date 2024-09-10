@@ -31,9 +31,11 @@ A modern **news app** built using **Android Jetpack Compose** following the **MV
 ## Screenshots 📸
 
 <div align="center">
-  <img src="https://via.placeholder.com/300x600" alt="News List Screen" width="250" />
-  <img src="https://via.placeholder.com/300x600" alt="News Details Screen" width="250" />
-  <img src="https://via.placeholder.com/300x600" alt="Bookmarks Screen" width="250" />
+  <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/splashScreen.png" alt="News List Screen" width="250" />
+  <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/onboarding1.png" alt="News Details Screen" width="250" />
+  <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/onboarding2.png" alt="Bookmarks Screen" width="250" />
+  <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/onboarding2.png" alt="Bookmarks Screen" width="250" />
+  
 </div>
 
 ---
