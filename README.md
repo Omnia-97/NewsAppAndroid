@@ -64,6 +64,8 @@ Ensure you have the following tools installed:
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [Git](https://git-scm.com)
 
+---
+
 <a id="contributing"></a>
 ## Contributing 🤝
 
