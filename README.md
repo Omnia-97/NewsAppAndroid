@@ -8,7 +8,6 @@ A modern **news app** built using **Android Jetpack Compose** following the **MV
 - [Features](#features) ✨
 - [Screenshots](#screenshots) 📸
 - [Technologies Used](#technologies-used) 🛠️
-- [Architecture](#architecture) 🏗️
 - [Installation](#installation) ⚙️
 - [Contributing](#contributing) 🤝
 - [Contact](#contact) 📧
@@ -93,4 +92,15 @@ Contributions are welcome and greatly appreciated! Follow the steps below to con
      git push origin feature/AmazingFeature 
 5. **Submit a Pull Request** 📩  
      ```bash
-     https://github.com/Omnia-97/NewsAppAndroid.git 
+     https://github.com/Omnia-97/NewsAppAndroid.git
+
+     ---
+
+<a id="contact"></a>
+## Contact 📧
+
+Feel free to reach out if you have any questions or suggestions!
+
+- **LinkedIn**: [Omnia Nabil](https://www.linkedin.com/in/omnia-nabil-j2510k24t)
+- **Email**: [omnianabil1920@gmail.com](mailto:omnianabil1920@gmail.com)
+
