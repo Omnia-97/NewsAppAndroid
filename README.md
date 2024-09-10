@@ -94,7 +94,7 @@ Contributions are welcome and greatly appreciated! Follow the steps below to con
      ```bash
      https://github.com/Omnia-97/NewsAppAndroid.git
 
-     ---
+---
 
 <a id="contact"></a>
 ## Contact 📧
