@@ -42,6 +42,8 @@ A modern **news app** built using **Android Jetpack Compose** following the **MV
   <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/addedToBookmark.png"alt="added Bookmark Screen"width="250"/>
   <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/bookmarkScreen.png"alt="Bookmark Screen"width="250"/>
   <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/dark/home.png"alt="Home Screen dark"width="250"/>
+  <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/dark/search.png"alt="search Screen dark"width="250"/>
+  <img src="https://github.com/Omnia-97/NewsAppAndroid/blob/master/app/screenshots/dark/details.png"alt="details Screen dark"width="250"/>
 </div>
 
 ---
