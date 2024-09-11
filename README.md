@@ -23,8 +23,8 @@ A modern **news app** built using **Android Jetpack Compose** following the **MV
 - 📤 **Share News**: Easily share articles with friends via other apps.
 - 🌐 **Read Full Article**: Open the complete article in a web browser with just one tap.
 - 🌗 **Dark Mode and Light Mode Support**: The app automatically adjusts to match the user's system theme, providing a seamless experience in both light and dark modes.
-- ✨ Shimmer Loading Effect: Enjoy a smooth and visually appealing loading experience with shimmer animations while fetching data.
-- 🚀 Animated Splash Screen: The app greets users with an engaging animated logo when it starts.
+- ✨ **Shimmer Loading Effect**: Enjoy a smooth and visually appealing loading experience with shimmer animations while fetching data.
+- 🚀 **Animated Splash Screen**: The app greets users with an engaging animated logo when it starts.
 
 ---
 
